@@ -2,15 +2,15 @@
 
 ## Aeon Description
 
-Aeon is a project-management application to assist users in implementing the GTD system of action-management.
+Aeon is a project-management application to assist users in implementing David Allen's 'Getting Things Done' system of action-management.
 
 ### MVP/PostMVP
 
-Make a user account, create nested lists of actions and put actions on calendar.
+Make a user account, create projects with nested lists of actions and put actions on calendar.
 
 ### GTD Model
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/GTDcanonical.png">
+<img src="https://i.pinimg.com/originals/40/d7/ff/40d7ff6811d93a1aacb1d4d17629241a.png">
 
 ### ERD
 
