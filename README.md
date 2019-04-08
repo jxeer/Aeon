@@ -25,6 +25,6 @@ https://developers.google.com/calendar/overview
 ### Technologies Used
 
 React js
-CSS
-Ruby on Rails
-Google Calendar API
+<br> CSS
+<br> Ruby on Rails
+<br> Google Calendar API
