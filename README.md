@@ -8,7 +8,7 @@ Aeon is a project-management application that assists users in implementing Davi
 
 ### MVP/PostMVP
 
-Make a user account, create, read, update or delete projects with nested lists of actions and put actions on calendar.
+Make a user account, create, read, update or delete projects with nested lists of tasks and put tasks on Google Calendar.
 
 ### GTD Workflow
 
