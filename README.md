@@ -8,9 +8,9 @@ Aeon is a project-management application to assist users in implementing David A
 
 Make a user account, create projects with nested lists of actions and put actions on calendar.
 
-### GTD Model
+### GTD Workflow
 
-<img src="https://i.pinimg.com/originals/40/d7/ff/40d7ff6811d93a1aacb1d4d17629241a.png">
+<img src="https://i.redd.it/tmz66sb3rd811.jpg">
 
 ### ERD
 
