@@ -2,7 +2,7 @@
 
 ## Aeon Description
 
-<img src="https://i.pinimg.com/originals/34/59/28/345928cc09855460feae0a67821d3d54.png">
+<img src="https://i.imgur.com/phyuIAE.png">
 
 Aeon is a project-management application that assists users in implementing David Allen's 'Getting Things Done' personal organization system.
 
