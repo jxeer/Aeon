@@ -6,9 +6,13 @@
 
 Aeon is a project-management website that assists users in implementing David Allen's 'Getting Things Done' personal organization system.
 
-### MVP/PostMVP
+### MVP
 
-Make a user account, create, read, update or delete projects with nested lists of tasks and put tasks on Google Calendar.
+Make a user account, create, read, update or delete projects with nested lists of tasks.
+
+### Post-MVP:
+
+Put tasks on Google Calendar.
 
 ### GTD Workflow
 
@@ -23,8 +27,6 @@ img src
 <img src="https://i.imgur.com/da4yask.png">
 <img src="https://i.imgur.com/OySaKRm.png">
 <img src="https://i.imgur.com/pTHbly2.png">
-
-## Timeline
 
 
 ### API Docs
