@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Aeon Description
-
+<center><img src="https://i.imgur.com/pCCDud6.png"></center>
 Aeon is a project-management application to assist users in implementing David Allen's 'Getting Things Done' system of action-management.
 
 ### MVP/PostMVP
