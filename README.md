@@ -20,7 +20,9 @@ img src
 
 ## Wireframes
 
-img src
+<img src="https://i.imgur.com/da4yask.png">
+<img src="https://i.imgur.com/OySaKRm.png">
+<img src="https://i.imgur.com/pTHbly2.png">
 
 ## Timeline
 
