@@ -6,7 +6,7 @@ Aeon is a project-management application to assist users in implementing David A
 
 ### MVP/PostMVP
 
-Make a user account, create projects with nested lists of actions and put actions on calendar.
+Make a user account, create, read, update or delete projects with nested lists of actions and put actions on calendar.
 
 ### GTD Workflow
 
