@@ -8,6 +8,10 @@ Aeon is a project-management application to assist users in implementing the GTD
 
 Make a user account, create nested lists of actions and put actions on calendar.
 
+### GTD Model
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/GTDcanonical.png">
+
 ### ERD
 
 img src
