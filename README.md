@@ -10,7 +10,7 @@ Make a user account, create projects with nested lists of actions and put action
 
 ### GTD Workflow
 
-<img src="https://i.redd.it/tmz66sb3rd811.jpg">
+<img src="https://i.ytimg.com/vi/jiR7U1hJZbY/maxresdefault.jpg">
 
 ### ERD
 
