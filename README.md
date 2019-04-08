@@ -4,7 +4,7 @@
 
 <img src="https://i.imgur.com/phyuIAE.png">
 
-Aeon is a project-management application that assists users in implementing David Allen's 'Getting Things Done' personal organization system.
+Aeon is a project-management website that assists users in implementing David Allen's 'Getting Things Done' personal organization system.
 
 ### MVP/PostMVP
 
