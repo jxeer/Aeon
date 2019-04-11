@@ -1,9 +1,0 @@
-<h2>Create New User</h2>
-<%= form_for @user do |f| %>
-  <%= f.text_field :name, placeholder: "Name" %>
-  <%= f.text_area :bio, placeholder: "Bio" %>
-  <%= f.password_field :password, placeholder: "Password" %>
-  <%= f.submit "Submit"%>
-<% end %>
-
-<p><%= link_to "Users List", users_path %>
