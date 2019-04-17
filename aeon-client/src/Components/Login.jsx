@@ -3,11 +3,11 @@ import axios from 'axios';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
+
 export default props => {
   const { toggle, show, email, password, onChange, onSubmit, onClick } = props;
   const showLogin = !show && toggle;
   return (
-    showLogin && (
       <div className="user-form-container">
         <form>
           <h2>Login</h2>
@@ -39,8 +39,5 @@ export default props => {
           </button>
         </form>
       </div>
-    )
   );
 };
-
-export default Login;

@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::API
   include ActionController::HttpAuthentication::Token::ControllerMethods
 
-   before_action :ensure_signed_in
+   # before_action :ensure_signed_in
    def encode(payload)
      payload[:token] = JWT.encode(payload, Rails.application.secrets.secret_key_base)
    end

@@ -1,0 +1,110 @@
+- function to create user — axios call to .post(“/users”)
+- function to log in — axios call to .post(“/users/login”)
+- function in controllerDidMount to persist log in
+- function to see user show page — axios call to .get(“/users/user_id”)
+- function to create action — axios call to .post(“/users/user_id/actions”)
+- function to get list of actions — axios call to .get(“/users/user_id/actions”)
+
+=====================================================================================
+constructor() {
+  super();
+    this.state = {
+      user: {},
+      token: "",
+      loginData: {
+        email: "",
+        password: ""
+      },
+      registerData: {
+        name: "",
+        email: "",
+        password: ""
+      }
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleLogin = this.handleLogin.bind(this);
+    this.handleRegisterChange = this.handleRegisterChange.bind(this);
+    this.handleRegister = this.handleRegister.bind(this);
+    this.logOut = this.logOut.bind(this);
+  }
+
+  handleChange(ev) {
+    ev.preventDefault();
+    const { name, value } = ev.target;
+    this.setState(prevState => ({
+      loginData: {
+        ...prevState.loginData,
+        [name]: value
+      }
+    }));
+  }
+
+  async handleLogin(ev) {
+    ev.preventDefault();
+    const { loginData } = this.state;
+    const resp = await loginUser(loginData);
+    this.setState({
+      user: resp.user,
+      token: resp.token,
+      loginData: {
+        email: "",
+        password: ""
+      }
+    });
+    this.props.history.push(`/users`);
+  }
+
+  handleRegisterChange(ev) {
+    ev.preventDefault();
+    const { name, value } = ev.target;
+    this.setState(prevState => ({
+      registerData: {
+        ...prevState.registerData,
+        [name]: value
+      }
+    }));
+  }
+
+  async handleRegister(ev) {
+    ev.preventDefault();
+    const { registerData } = this.state;
+    const resp = await postUser(registerData);
+    this.setState({
+      token: resp.token,
+      user: resp.user,
+      registerData: {
+        email: "",
+        password: "",
+        name: ""
+      }
+    });
+    this.props.history.push("/users");
+  }
+
+  logOut(ev) {
+    this.setState({
+      user: {},
+      token: ""
+    });
+    this.props.history.push(`/`);
+  }
+
+  componentDidMount() {}
+
+  ====================================================================================
+  // async componentDidMount() {
+  //   try {
+  //     const { user } = await verifyToken();
+  //     if (user !== undefined) {
+  //     this.setState({
+  //       currentUser: user
+  //     })
+  //     await this.fetchUser();
+  //     } else {
+  //       this.props.history.push('/');
+  //     }
+  //   } catch (e) {
+  //     this.props.history.push('/');
+  //   }
+  /
